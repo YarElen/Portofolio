@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/src/img/apple-touch-icon-removebg-preview.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#e5e5e5]">
+    <nav class="bg-gray-800">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                    <!-- Mobile menu button-->
+                    <button id="toggle-hamburger" type="button"
+                        class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="absolute -inset-0.5"></span>
+                        <span class="sr-only">Open main menu</span>
+                        <!--
+                  Icon when menu is closed.
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                        <svg id="icon-open" class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                        <svg id="icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
+                    <a href="#"
+                        class="text-gray-100 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">Muhamad
+                        Ahyar Yogi</a>
+                    <div class="hidden sm:ml-6 sm:block">
+                        <div class="flex justify-around">
+                            <a href="#"
+                                class="hover:bg-gray-900 text-white rounded-md px-3 py-2 text-lg font-medium mr-3"
+                                aria-current="page">About</a>
+                            <a href="#"
+                                class="text-gray-100 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 text-lg font-medium mr-3">Portofolio</a>
+                            <a href="#"
+                                class="text-gray-100 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 text-lg font-medium mr-3">Socials</a>
+                            <a href="#"
+                                class="text-gray-100 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 text-lg font-medium mr-3">Experiences</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div id="navbar-mobile" class="hidden sm:hidden" id="mobile-menu">
+            <div class="space-y-1 px-2 pb-3 pt-2">
+                <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+                    aria-current="page">Dashboard</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="#myprofile"
+        class="py-10 w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto flex flex-col justify-center items-center lg:flex-row gap-2">
+        <div>
+            <p class="text-2xl text-[#ff983b]"> Hello Everyone My Name </p>
+            <p class="text-3xl"> Muhamad Ahyar Yogi Wibisono </p>
+            <p class="text-2xl"> Front End Developer | Informatics Engineering</p>
+            <p class="text-2xl"> Student </p>
+        </div>
+        <img class="w-[250px]" src="./src/img/IMG_1-removebg-preview.png" alt="Fotoku">
+    </section>
+
+    <section id="#about" class="pt-14 pb-10">
+        <div class="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto">
+            <h2 class="text-xl font-bold my-4">-About</h2>
+            <p class="mt-4 justify-center items-center text-lg">
+                Saya adalah seorang mahasiswa informatika.
+                Saya memiliki keterampilan pada bidang Web Development pada Front End.
+                Saya masih terus belajar mengembangkan mengenai Web Development.
+                Saya juga tertarik pada bidang Netwokring.
+                Dan saat ini saya lulusan Studi Independen Cycle 5 di Hacktiv8 Indonesia.
+                Dan saya saat ini tinggal di Kota Surakarta.
+            </p>
+            <h2 class="text-lg font-bold my-4">-My Skills</h2>
+            <div class="flex gap-3 items-center">
+                <img src="./src/icon/icons8-html-50.png" alt="html-icon" class="w-8">
+                <img src="./src/icon/icons8-css-50.png" alt="css-icon" class="w-8">
+                <img src="./src/icon/icons8-javascript-96.png" alt="javascript-icon" class="w-8">
+                <img src="./src/icon/icons8-tailwind-css-48.png" alt="tailwind-icon" class="w-8">
+            </div>
+        </div>
+    </section>
+
+    <section id="#portofolio" class="pt-14 pb-10 bg-slate-200">
+        <div class="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto">
+            <h2 class="text-xl font-bold my-4">-Portofolio</h2>
+            <div class="mt-4 grid gap-6 grid-cols-1 md:grid-cols-2">
+                <div class="shadow-md rounded-md">
+                    <img src="/src/img/Home.PNG" alt="Shoes Footwear" class="rounded-t-md">
+                    <div class="p-4">
+                        <a href="https://shoes-footwear.vercel.app/">
+                            <h4 class="text-lg underline">Shoes Footwear</h4>
+                        </a>
+                        <p class="text-md my-3">
+                            Sebuah Website penjualan sepatu lokal dan Internasional sekaligus memperkenalkan produk
+                            lokal
+                        </p>
+                        <a href="https://github.com/Final-Project-Hacktiv/FinPro-1"
+                            class="underline text-[#006ca1]">Repository</a>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <img src="/src/icon/icons8-html-50.png" alt="html-icon" class="w-10">
+                        <img src="/src/icon/icons8-javascript-96.png" alt="javascript-icon" class="w-10">
+                        <img src="/src/icon/icons8-css-50.png" alt="css-icon" class="w-10">
+                        <img src="/src/icon/icons8-bootstrap-48.png" alt="bootstrap-icon" class="w-10">
+                    </div>
+                </div>
+                <div class="shadow-md rounded-md">
+                    <img src="/src/img/Home UI.PNG" alt="Slicing UI Startup.io" class="rounded-t-md">
+                    <div class="p-4">
+                        <a href="https://fin-pro2-slicing-ui.vercel.app/">
+                            <h4 class="text-lg underline">Slicing UI</h4>
+                        </a>
+                        <p class="text-md my-3">
+                            Sebuah tampilan slicing ui pada bisnis yang menawarkan harga spesial pada startup.io dan
+                            kegiatan sehari-hari di startup.io
+                        </p>
+                        <a href="https://github.com/Final-Project-Hacktiv/FinPro-2"
+                            class="underline text-[#006ca1]">Repository</a>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <img src="/src/icon/icons8-html-50.png" alt="html-icon" class="w-10">
+                        <img src="/src/icon/icons8-css-50.png" alt="css-icon" class="w-10">
+                    </div>
+                </div>
+                <div class="shadow-md rounded-md">
+                    <img src="/src/img/Home UI 2.PNG" alt="Slicing UI Rebranding Product" class="rounded-t-md">
+                    <div class="p-4">
+                        <a href="https://finpro3-slicing-ui-2.vercel.app/">
+                            <h4 class="text-lg underline">Slicing UI Rebranding Product</h4>
+                        </a>
+                        <p class="text-md my-3">
+                            Sebuah tampilan slicing ui Rebranding Product
+                        </p>
+                        <a href="https://github.com/Final-Project-Hacktiv/FinPro-3"
+                            class="underline text-[#006ca1]">Repository</a>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <img src="/src/icon/icons8-html-50.png" alt="html-icon" class="w-10">
+                        <img src="/src/icon/icons8-css-50.png" alt="css-icon" class="w-10">
+                    </div>
+                </div>
+                <div class="shadow-md rounded-md">
+                    <img src="/src/img/Home Weather.PNG" alt="Weather App" class="rounded-t-md">
+                    <div class="p-4">
+                        <a href="https://weatherapp-finpro4.vercel.app/">
+                            <h4 class="text-lg underline">Weather App</h4>
+                        </a>
+                        <p class="text-md my-3">
+                            Sebuah tampilan aplikasi cuaca untuk mengetahui suhu dan kelembapan pada suatu tempat
+                        </p>
+                        <a href="https://github.com/Final-Project-Hacktiv/FinPro-4"
+                            class="underline text-[#006ca1]">Repository</a>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <img src="/src/icon/icons8-html-50.png" alt="html-icon" class="w-10">
+                        <img src="/src/icon/icons8-javascript-96.png" alt="javascript-icon" class="w-10">
+                        <img src="/src/icon/icons8-css-50.png" alt="css-icon" class="w-10">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#socials" class="pt-14 pb-10">
+        <div class="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto">
+            <h2 class="text-xl font-bold my-4">-Social Media</h2>
+            <div class="mt-4 flex justify-center md:justify-start gap-6">
+                <a href="https://github.com/YarElen" class="flex flex-col gap-1 justify-center items-center">
+                    <img src="/src/icon/icons8-github-90.png" alt="github-icon" class="w-10">
+                    <span class="text-md">Github</span>
+                </a>
+                <a href="https://www.instagram.com/yar.ahyar_/" class="flex flex-col gap-1 justify-center items-center">
+                    <img src="/src/icon/icons8-instagram-96.png" alt="icon-instagram" class="w-10">
+                    <span class="text-md">Instagram</span>
+                </a>
+                <a href="https://www.linkedin.com/in/muhamad-ahyar-yogi-wibisono-b7ba60295/"
+                    class="flex flex-col gap-1 justify-center items-center">
+                    <img src="/src/icon/icons8-linkedin-96.png" alt="linkedin-icon" class="w-10">
+                    <span class="text-md">LinkedIn</span>
+                </a>
+                <a href="https://www.facebook.com/muhamad.ahyar.0104"
+                    class="flex flex-col gap-1 justify-center items-center">
+                    <img src="/src/icon/icons8-facebook-96.png" alt="facebook-icon" class="w-10">
+                    <span class="text-md">Facebook</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences" class="pt-10 pb-10">
+        <div class="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] mx-auto">
+            <h2 class="text-xl font-bold my-4">-Experiences</h2>
+            <div class="mb-2.5">
+                <h4 class="text-lg font-semibold">Web Developer Program Student di Hacktiv8 Indonesia</h4>
+                <p class="mt-1">
+                    Hacktiv8 Indonesia - Magang
+                </p>
+                <p class="text-[#908f9a]">
+                    Agu 2023 - Des 2023
+                </p>
+                <p class="mt-1">Program SIB Hacktiv8 Cycle 5 X Kampus Merdeka</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 flex justify-between">
+        <p
+            class="text-justify text-gray-100 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">
+            © 2024 Muhamad Ahyar Yogi. All rights reserved.</p>
+        <div class="flex gap-6 items-center">
+            <a href="https://github.com/YarElen" class="flex flex-col gap-1">
+                <img src="/src/icon/icons8-github-30 (1).png" alt="github-icon">
+            </a>
+            <a href="https://www.instagram.com/yar.ahyar_/" class="flex flex-col gap-1">
+                <img src="/src/icon/icons8-instagram-30 (1).png" alt="icon-instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/muhamad-ahyar-yogi-wibisono-b7ba60295/" class="flex flex-col gap-1">
+                <img src="/src/icon/icons8-linkedin-30 (1).png" alt="linkedin-icon">
+            </a>
+            <a href="https://www.facebook.com/muhamad.ahyar.0104" class="flex flex-col gap-1 ">
+                <img src="/src/icon/icons8-facebook-30 (1).png" alt="facebook-icon">
+            </a>
+        </div>
+    </footer>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
